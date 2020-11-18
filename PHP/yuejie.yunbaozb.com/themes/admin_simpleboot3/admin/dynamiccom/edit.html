@@ -1,0 +1,38 @@
+
+<include file="public@header" />
+</head>
+<body>
+	<div class="wrap">
+		<form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('dynamiccom/editPost',array('id'=>$data['id']))}">
+            <div class="form-group">
+				<label for="input-uid" class="col-sm-2 control-label"><span class="form-required">*</span>内容</label>
+				<div class="col-md-6 col-sm-10">
+					<input type="text" class="form-control" id="input-uid" name="post[content]" value="{$data['content']}">
+				</div>
+			</div>
+            
+            <div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-primary js-ajax-submit">{:lang('EDIT')}</button>
+				</div>
+			</div>
+
+		</form>
+	</div>
+	<script src="__STATIC__/js/admin.js"></script>
+    <script type="text/javascript">
+    (function(){
+		$("#cdn").on('change',function(){
+			var v=$(this).val();
+			var b=$("#cdn_switch_1");
+			if(v==0){
+				b.hide();
+				$("#input-type_val").val('');
+			}else{
+				b.show();
+			}
+		})
+	})()
+    </script>
+</body>
+</html>

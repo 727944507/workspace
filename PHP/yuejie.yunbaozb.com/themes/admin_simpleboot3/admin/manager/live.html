@@ -1,0 +1,150 @@
+<include file="public@header" />
+<style>
+    p{
+       margin:0;
+       padding:0;
+    }
+    .label{
+        display:inline-block;
+        margin-bottom:5px;
+        padding:5px 10px;
+        border-radius:50px;
+    }
+    .imgtip{
+        margin-bottom:5px;
+    }
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a >列表</a></li>
+		</ul>
+        
+        <form class="well form-inline margin-top-20" method="post" action="{:url('manager/live')}">
+            状态：
+            <select class="form-control" name="status" style="width: 100px;">
+                <option value=''>全部</option>
+                <volist name="status" id="v">
+                    <option value="{$key}" <if condition="input('request.status') neq '' && input('request.status') eq $key">selected</if>>{$v}</option>
+                </volist>
+            </select>
+            提交时间：
+            <input class="form-control js-bootstrap-date" name="start_time" id="start_time" value="{:input('request.start_time')}" aria-invalid="false" style="width: 110px;"> - 
+            <input class="form-control js-bootstrap-date" name="end_time" id="end_time" value="{:input('request.end_time')}" aria-invalid="false" style="width: 110px;">
+            用户ID：
+            <input class="form-control" type="text" name="uid" style="width: 200px;" value="{:input('request.uid')}"
+                   placeholder="用户ID">
+            <input type="submit" class="btn btn-primary" value="搜索"/>
+            <a class="btn btn-danger" href="{:url('manager/live')}">清空</a>
+        </form>
+    
+		<form method="post" class="js-ajax-form">
+			<table class="table table-hover table-bordered">
+				<thead>
+					<tr>
+						<th>用户</th>
+						<th width="10%">语音</th>
+						<th>审核意见</th>
+						<th>状态</th>
+						<th>提交时间</th>
+						<th>处理时间</th>
+						<th align="center">{:lang('ACTIONS')}</th>
+					</tr>
+				</thead>
+				<tbody>
+					<foreach name="list" item="vo">
+					<tr>
+						<td>{$vo['userinfo']['user_nickname']} ( {$vo['uid']} )</td>	
+						<td><if condition="$vo['voice']">
+                            <a class="btn btn-xs btn-success view" data-voice="{$vo['voice']}">查看语音</a>
+                            </if></td>
+						<td>{$vo['reason']}</td>
+						<td>{$status[$vo['status']]}</td>
+                        <td>{:date('Y-m-d H:i',$vo['addtime'])}</td>
+                        <td><if condition="$vo['uptime']">{:date('Y-m-d H:i',$vo['uptime'])}</if></td>
+						<td>
+                            <if condition="$vo['status'] eq 0">
+                                <a class="btn btn-xs btn-success setstatus" data-uid="{$vo['uid']}" data-status="1">同意</a>
+                                <a class="btn btn-xs btn-danger setstatus" data-uid="{$vo['uid']}" data-status="2">拒绝</a>
+                            </if>
+                            
+                            <if condition="$vo['status'] eq 1">
+                                <a class="btn btn-xs btn-danger setstatus" data-uid="{$vo['uid']}" data-status="2">拒绝</a>
+                            </if>
+                            
+                            <if condition="$vo['status'] eq 2">
+                                <a class="btn btn-xs btn-success setstatus" data-uid="{$vo['uid']}" data-status="1">同意</a>
+                            </if>
+						</td>
+					</tr>
+					</foreach>
+				</tbody>
+			</table>
+			<div class="pagination">{$page}</div>
+
+		</form>
+	</div>
+    <div id="enlarge_images" style="position:fixed;display:none;z-index:2;"></div>
+	<script src="__STATIC__/js/admin.js"></script>
+    <script>
+        $(function(){
+            Wind.use('layer');
+            $('.setstatus').click(function(){
+                var _this=$(this);
+                var uid=_this.data('uid');
+                var status=_this.data('status');
+                var value='';
+                if(status==1){
+                    value=' ';
+                }
+                
+                layer.prompt({
+                    formType: 2,
+                    title: '审核意见',
+                    value: value,
+                    area: ['800px', '100px'] //自定义文本域宽高
+                }, function(value, index, elem){
+                    $.ajax({
+                        url:'{:url('manager/setLiveStatus')}',
+                        type:'POST',
+                        data:{uid:uid,status:status,reason:value},
+                        dataType:'json',
+                        success:function(data){
+                            var code=data.code;
+                            if(code==0){
+                                layer.msg(data.msg);
+                                return !1;
+                            }
+                            layer.msg(data.msg,{},function(){
+                                layer.closeAll();
+                                reloadPage(window);
+                            });
+                            
+                        },
+                        error:function(){
+                            layer.msg('操作失败，请重试')
+                        }
+                    });
+                    
+                });
+                
+            })
+			
+			$('.view').click(function(){
+                var _this=$(this);
+                var voice=_this.data('voice');
+
+                layer.open({
+                    type: 1,
+                    title: '查看',
+                    shadeClose: true,
+                    shade: 0.8,
+                    content: '<video  autoplay  width="320" height="80" controls><source src="'+voice+'" ></video>'
+                }); 
+                
+            });
+        })
+    </script>
+</body>
+</html>

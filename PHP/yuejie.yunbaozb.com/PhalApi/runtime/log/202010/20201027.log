@@ -1,0 +1,26 @@
+2020-10-27 15:00:08|ERROR|App.Upload.GetQiniuToken|InvalidArgumentException: Options access_key, secret_key and bucket required in /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/qiniu/qiniu/lib/Qiniu/Client.php:59
+Stack trace:
+#0 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/qiniu/qiniu/lib/Qiniu/Qiniu.php(16): Qiniu\Client->__construct(Array)
+#1 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/qiniu/src/Lite.php(41): Qiniu\Qiniu::create(Array)
+#2 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/config/di.php(64): PhalApi\Qiniu\Lite->__construct()
+#3 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/kernal/src/DependenceInjection.php(201): {closure}()
+#4 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/kernal/src/DependenceInjection.php(147): PhalApi\DependenceInjection->initService(Object(Closure))
+#5 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/kernal/src/DependenceInjection.php(174): PhalApi\DependenceInjection->get('qiniu', NULL)
+#6 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/src/app/Api/Upload.php(39): PhalApi\DependenceInjection->__get('qiniu')
+#7 [internal function]: App\Api\Upload->getQiniuToken()
+#8 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#9 /data/wwwroot/yuejie.yunbaozb.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#10 {main}
+2020-10-27 15:00:16|ERROR|App.Upload.GetQiniuToken|InvalidArgumentException: Options access_key, secret_key and bucket required in /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/qiniu/qiniu/lib/Qiniu/Client.php:59
+Stack trace:
+#0 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/qiniu/qiniu/lib/Qiniu/Qiniu.php(16): Qiniu\Client->__construct(Array)
+#1 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/qiniu/src/Lite.php(41): Qiniu\Qiniu::create(Array)
+#2 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/config/di.php(64): PhalApi\Qiniu\Lite->__construct()
+#3 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/kernal/src/DependenceInjection.php(201): {closure}()
+#4 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/kernal/src/DependenceInjection.php(147): PhalApi\DependenceInjection->initService(Object(Closure))
+#5 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/kernal/src/DependenceInjection.php(174): PhalApi\DependenceInjection->get('qiniu', NULL)
+#6 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/src/app/Api/Upload.php(39): PhalApi\DependenceInjection->__get('qiniu')
+#7 [internal function]: App\Api\Upload->getQiniuToken()
+#8 /data/wwwroot/yuejie.yunbaozb.com/PhalApi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#9 /data/wwwroot/yuejie.yunbaozb.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#10 {main}

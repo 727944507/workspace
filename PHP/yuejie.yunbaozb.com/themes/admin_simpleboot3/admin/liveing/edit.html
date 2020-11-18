@@ -1,0 +1,108 @@
+
+<include file="public@header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li ><a href="{:url('Liveing/index')}">列表</a></li>
+			<li class="active"><a >{:lang('EDIT')}</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form margin-top-20" action="{:url('Liveing/editPost')}">
+            <div class="form-group">
+				<label for="input-uid" class="col-sm-2 control-label"><span class="form-required">*</span>用户ID</label>
+				<div class="col-md-6 col-sm-10">
+					<input type="text" class="form-control" id="input-uid" name="uid" value="{$data['uid']}" readonly>
+				</div>
+			</div>
+            
+            <div class="form-group">
+				<label for="input-type" class="col-sm-2 control-label"><span class="form-required">*</span>背景图片</label>
+				<div class="col-md-6 col-sm-10">
+                    <select class="form-control" name="bgid">
+                    	<option value="0" <eq name="data['bgid']" value="0">selected</eq>>请选择背景图</option>
+                        <volist name="bglist" id="v">
+                        <option value="{$key}" <if condition="$data['bgid'] gt 0 and $data['bgid'] eq $key">selected</if>>{$v['name']}</option>
+                        </volist>
+                    </select>
+				</div>
+			</div>
+            
+            <div class="form-group">
+				<label for="input-type" class="col-sm-2 control-label"><span class="form-required">*</span>聊天室类型</label>
+				<div class="col-md-6 col-sm-10">
+                    <select class="form-control" name="type" id="cdn">
+                        <volist name="type" id="v">
+                        <option value="{$key}" <eq name="data['type']" value="$key">selected</eq>>{$v}</option>
+                        </volist>
+                    </select>
+				</div>
+			</div>
+            
+            
+            
+           <!--  <div class="form-group">
+				<label for="input-pull" class="col-sm-2 control-label"><span class="form-required">*</span>聊天播流地址</label>
+				<div class="col-md-6 col-sm-10">
+					<input type="text" class="form-control" id="input-pull" name="pull" value="{$data['pull']}">格式：flv
+				</div>
+			</div> -->
+            
+			<div class="form-group">
+				<label for="input-title" class="col-sm-2 control-label"><span class="form-required">*</span>聊天室标题</label>
+				<div class="col-md-6 col-sm-10">
+					<input type="text" class="form-control" id="input-title" name="title" value="{$data['title']}">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="input-des" class="col-sm-2 control-label"><span class="form-required">*</span>聊天室公告</label>
+				<div class="col-md-6 col-sm-10">
+					<textarea class="form-control" id="input-content" name="des" maxlength="200">{$data['des']}</textarea>
+				</div>
+			</div>
+			
+            <div class="form-group">
+				<label for="input-user_login" class="col-sm-2 control-label"><span class="form-required">*</span>图片</label>
+				<div class="col-md-6 col-sm-10">
+					<input type="hidden" name="thumb" id="thumbnail" value="{$data['thumb']}">
+                    <a href="javascript:uploadOneImage('图片上传','#thumbnail');">
+                        <if condition="empty($data.thumb)">
+                        <img src="__TMPL__/public/assets/images/default-thumbnail.png"
+                                 id="thumbnail-preview"
+                                 style="cursor: pointer;max-width:100px;max-height:100px;"/>
+                        <else/>
+                        <img src="{:cmf_get_image_preview_url($data.thumb)}"
+                             id="thumbnail-preview"
+                             style="cursor: pointer;max-width:100px;max-height:100px;"/>
+                        </if>
+                    </a>
+                    <input type="button" class="btn btn-sm btn-cancel-thumbnail" value="取消图片"> 
+                    <p class="help-block">建议尺寸： 50 X 50 太大会造成加载图片加载慢等各种问题</p>
+				</div>
+			</div>
+            
+            <div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-primary js-ajax-submit">{:lang('EDIT')}</button>
+					<a class="btn btn-default" href="javascript:history.back(-1);">{:lang('BACK')}</a>
+				</div>
+			</div>
+
+		</form>
+	</div>
+	<script src="__STATIC__/js/admin.js"></script>
+    <script type="text/javascript">
+    (function(){
+		$("#cdn").on('change',function(){
+			var v=$(this).val();
+			var b=$("#cdn_switch_1");
+			if(v==0){
+				b.hide();
+				$("#input-type_val").val('');
+			}else{
+				b.show();
+			}
+		})
+	})()
+    </script>
+</body>
+</html>

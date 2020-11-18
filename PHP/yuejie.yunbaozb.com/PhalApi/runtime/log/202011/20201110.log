@@ -1,0 +1,511 @@
+2020-11-10 16:23:50|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(931): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetch()
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel(NULL)
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel(NULL)
+#5 [internal function]: App\Api\Skill->getAllLabel()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-10 16:26:04|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(931): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetch()
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#5 [internal function]: App\Api\Skill->getAllLabel()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-10 16:27:06|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(931): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetch()
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#5 [internal function]: App\Api\Skill->getAllLabel()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-10 16:27:27|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(931): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetch()
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#5 [internal function]: App\Api\Skill->getAllLabel()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-10 16:27:29|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(931): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetch()
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#5 [internal function]: App\Api\Skill->getAllLabel()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-10 16:28:26|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 16:28:28|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:19:29|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:19:51|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:20:13|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:20:26|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:20:27|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:20:27|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:20:27|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:35|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:39|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:49|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:49|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:49|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:49|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:49|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:50|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:50|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:50|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:50|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:50|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:50|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:50|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:50|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:21:51|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:07|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:08|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:08|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:22|ERROR|App.Skill.getAllLabel|PDOException: Table 'yuedan.cmf_userauth' doesn't exist in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:22|ERROR|App.Skill.getAllLabel|PDOException: Table 'yuedan.cmf_userauth' doesn't exist in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:22|ERROR|App.Skill.getAllLabel|PDOException: Table 'yuedan.cmf_userauth' doesn't exist in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:23|ERROR|App.Skill.getAllLabel|PDOException: Table 'yuedan.cmf_userauth' doesn't exist in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:23|ERROR|App.Skill.getAllLabel|PDOException: Table 'yuedan.cmf_userauth' doesn't exist in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:51|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:51|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:51|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:51|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-10 17:23:52|ERROR|App.Skill.getAllLabel|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Skill.php(166): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Skill.php(542): App\Model\Skill->getAllLabel('101268')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Skill.php(389): App\Domain\Skill->getAllLabel('101268')
+#6 [internal function]: App\Api\Skill->getAllLabel()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}

@@ -1,0 +1,11 @@
+2020-11-12 11:24:56|ERROR|App.User.getNearby|PDOException: Unknown column 'Latitude' in 'where clause' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT lat,lng ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(262): NotORM_Result->fetchAll()
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(387): App\Model\User->getNearby('101253', '112.90923896705...', '23.152259609373...', '1')
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(800): App\Domain\User->getNearby('101253', '112.90923896705...', '23.152259609373...', '1')
+#5 [internal function]: App\Api\User->getNearby()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}

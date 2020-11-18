@@ -1,0 +1,6 @@
+<?php
+//000000000000
+ exit();?>
+think_serialize:a:32:{s:9:"site_name";s:12:"千寻陪练";s:14:"site_seo_title";s:6:"约单";s:17:"site_seo_keywords";s:6:"约单";s:20:"site_seo_description";s:6:"约单";s:8:"site_icp";s:0:"";s:8:"site_gwa";s:0:"";s:16:"site_admin_email";s:0:"";s:14:"site_analytics";s:0:"";s:8:"site_url";s:26:"http://yuejie.yunbaozb.com";s:7:"apk_ver";s:0:"";s:7:"apk_url";s:0:"";s:7:"apk_des";s:20:"有新版本更新
+";s:7:"ipa_ver";s:0:"";s:11:"ios_shelves";s:0:"";s:7:"ipa_url";s:0:"";s:7:"ipa_des";s:20:"有新版本更新
+";s:6:"qr_url";s:0:"";s:9:"name_coin";s:9:"千寻币";s:9:"copyright";s:12:"版权信息";s:12:"name_coin_en";s:6:"Dollar";s:10:"name_votes";s:6:"云票";s:17:"share_agent_title";s:24:"全民赚钱分享标题";s:15:"share_agent_des";s:24:"全民赚钱分享话术";s:12:"company_name";s:30:"佛山跃界科技有限公司";s:12:"company_desc";s:328:"专注于音视频直播系统开发，以音视频直播平台发展及软件产品、解决方案的研发和服务为主，为客户打造多元化的直播系统。公司秉承"专注专业，永争第一，用心服务"的企业理念，自主研发了享誉行业的"短视频系统"，努力为客户创建更高价值。";s:17:"login_alert_title";s:27:"服务协议和隐私政策";s:19:"login_alert_content";s:393:"请您务必仔细阅读，充分理解“服务协议”和“隐私政策”各条款，包括但不限于为了向您提供即时通讯，内容分享等服务，我们需要收集您设备信息和个人信息，您可以在设置中查看，管理您的授权。您可阅读《隐私政策》和《服务协议》了解详细信息，如您同意，请点击同意接受我们的服务。";s:18:"login_clause_title";s:60:"登录即代表同意《隐私政策》和《服务协议》";s:19:"login_private_title";s:18:"《隐私政策》";s:17:"login_private_url";s:24:"/appapi/page/detail?id=6";s:19:"login_service_title";s:18:"《服务协议》";s:17:"login_service_url";s:24:"/appapi/page/detail?id=9";}

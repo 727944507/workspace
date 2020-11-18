@@ -1,0 +1,389 @@
+2020-11-11 11:31:01|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:31:02|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:31:02|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:31:02|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:35:21|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:35:21|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:35:21|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:50|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:50|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:50|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:51|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:51|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:51|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:51|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:51|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:51|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:52|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:36:52|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(753): NotORM_Result->fetchAll()
+#3 [internal function]: App\Api\User->getRecom()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#6 {main}
+2020-11-11 11:54:18|ERROR|App.User.getRecom|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(220): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(373): App\Model\User->getLabel('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#6 [internal function]: App\Api\User->getRecom()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-11 11:54:44|ERROR|App.User.getRecom|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(220): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(373): App\Model\User->getLabel('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#6 [internal function]: App\Api\User->getRecom()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-11 11:55:28|ERROR|App.User.getRecom|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(221): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(373): App\Model\User->getLabel('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#6 [internal function]: App\Api\User->getRecom()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-11 11:56:16|ERROR|App.User.getRecom|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(221): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(373): App\Model\User->getLabel('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#6 [internal function]: App\Api\User->getRecom()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-11 11:56:21|ERROR|App.User.getRecom|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(220): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(373): App\Model\User->getLabel('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#6 [internal function]: App\Api\User->getRecom()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-11 11:56:21|ERROR|App.User.getRecom|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(220): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(373): App\Model\User->getLabel('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#6 [internal function]: App\Api\User->getRecom()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-11 11:56:21|ERROR|App.User.getRecom|PDOException: Unknown column 'label' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT label FR...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(220): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(373): App\Model\User->getLabel('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#6 [internal function]: App\Api\User->getRecom()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-11 12:07:29|ERROR|App.User.getRecom|PDOException: Unknown column 'onlineStatus' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id,user_...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\functions.php(343): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(280): App\getUserInfo('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(369): App\Model\User->getList('user_status=1 a...', 'recommend_time ...', '1')
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#7 [internal function]: App\Api\User->getRecom()
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#9 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#10 {main}
+2020-11-11 12:09:03|ERROR|App.User.getRecom|PDOException: Unknown column 'onlineStatus' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id,user_...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\functions.php(343): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(280): App\getUserInfo('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(369): App\Model\User->getList('user_status=1 a...', 'recommend_time ...', '1')
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#7 [internal function]: App\Api\User->getRecom()
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#9 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#10 {main}
+2020-11-11 12:09:03|ERROR|App.User.getRecom|PDOException: Unknown column 'onlineStatus' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id,user_...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\functions.php(343): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(280): App\getUserInfo('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(369): App\Model\User->getList('user_status=1 a...', 'recommend_time ...', '1')
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#7 [internal function]: App\Api\User->getRecom()
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#9 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#10 {main}
+2020-11-11 12:10:04|ERROR|App.User.getRecom|PDOException: Unknown column 'onlineStatus' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id,onlin...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\functions.php(343): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(280): App\getUserInfo('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(369): App\Model\User->getList('user_status=1 a...', 'recommend_time ...', '1')
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#7 [internal function]: App\Api\User->getRecom()
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#9 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#10 {main}
+2020-11-11 12:10:04|ERROR|App.User.getRecom|PDOException: Unknown column 'onlineStatus' in 'field list' in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id,onlin...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(961): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(949): NotORM_Result->fetchRow('')
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\functions.php(343): NotORM_Result->fetchOne()
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(280): App\getUserInfo('101272')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(369): App\Model\User->getList('user_status=1 a...', 'recommend_time ...', '1')
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#7 [internal function]: App\Api\User->getRecom()
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#9 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#10 {main}
+2020-11-11 13:47:41|ERROR|App.User.getRecom|PDOException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0' at line 1 in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(885): NotORM_Result->query('SELECT id FROM ...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(970): NotORM_Result->execute()
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\functions.php(349): NotORM_Result->fetchAll()
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\User.php(281): App\getUserInfo('101272')
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\User.php(369): App\Model\User->getList('user_status=1 a...', 'recommend_time ...', '1')
+#5 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\User.php(764): App\Domain\User->getList('101253', '', '', '', '1', 0)
+#6 [internal function]: App\Api\User->getRecom()
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#8 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2020-11-11 14:20:07|ERROR|App.Login.Login|PDOException: Field 'funs' doesn't have a default value in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(377): NotORM_Result->query('INSERT  INTO cm...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(394): NotORM_Result->insert_multi(Array)
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Login.php(53): NotORM_Result->insert(Array)
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Login.php(31): App\Model\Login->userReg(Array)
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Login.php(172): App\Domain\Login->userLogin('13089319981', '2')
+#5 [internal function]: App\Api\Login->login()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-11 14:20:11|ERROR|App.Login.Login|PDOException: Field 'funs' doesn't have a default value in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(377): NotORM_Result->query('INSERT  INTO cm...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(394): NotORM_Result->insert_multi(Array)
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Login.php(53): NotORM_Result->insert(Array)
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Login.php(31): App\Model\Login->userReg(Array)
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Login.php(172): App\Domain\Login->userLogin('13089319981', '2')
+#5 [internal function]: App\Api\Login->login()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-11 14:21:13|ERROR|App.Login.Login|PDOException: Field 'funs' doesn't have a default value in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(377): NotORM_Result->query('INSERT  INTO cm...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(394): NotORM_Result->insert_multi(Array)
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Login.php(53): NotORM_Result->insert(Array)
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Login.php(31): App\Model\Login->userReg(Array)
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Login.php(172): App\Domain\Login->userLogin('13089319981', '2')
+#5 [internal function]: App\Api\Login->login()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-11 14:21:13|ERROR|App.Login.Login|PDOException: Field 'funs' doesn't have a default value in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(377): NotORM_Result->query('INSERT  INTO cm...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(394): NotORM_Result->insert_multi(Array)
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Login.php(53): NotORM_Result->insert(Array)
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Login.php(31): App\Model\Login->userReg(Array)
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Login.php(172): App\Domain\Login->userLogin('13089319981', '2')
+#5 [internal function]: App\Api\Login->login()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-11 14:22:29|ERROR|App.Login.Login|PDOException: Field 'funs' doesn't have a default value in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(377): NotORM_Result->query('INSERT  INTO cm...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(394): NotORM_Result->insert_multi(Array)
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Login.php(53): NotORM_Result->insert(Array)
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Login.php(31): App\Model\Login->userReg(Array)
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Login.php(172): App\Domain\Login->userLogin('13089319981', '2')
+#5 [internal function]: App\Api\Login->login()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}
+2020-11-11 14:26:00|ERROR|App.Login.Login|PDOException: Field 'funs' doesn't have a default value in D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php:279
+Stack trace:
+#0 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(377): NotORM_Result->query('INSERT  INTO cm...', Array)
+#1 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\notorm\src\NotORM\Result.php(394): NotORM_Result->insert_multi(Array)
+#2 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Model\Login.php(53): NotORM_Result->insert(Array)
+#3 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Domain\Login.php(31): App\Model\Login->userReg(Array)
+#4 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\src\app\Api\Login.php(172): App\Domain\Login->userLogin('13089319981', '2')
+#5 [internal function]: App\Api\Login->login()
+#6 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\PhalApi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#7 D:\phpstudy_pro\WWW\yuejie.yunbaozb.com\public\api\index.php(9): PhalApi\PhalApi->response()
+#8 {main}

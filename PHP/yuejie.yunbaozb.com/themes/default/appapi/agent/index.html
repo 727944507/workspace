@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>全民赚钱</title>
+    <include file="appapi@head"/>
+    <link href='__STATIC__/appapi/css/agent.css?t=1577181718' type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="agent">
+        <div class="agent_title">
+            <img src="__STATIC__/appapi/images/agent/tips_title.png">
+        </div>
+        <div class="agent_tips">
+            <img src="__STATIC__/appapi/images/agent/tips_top.png">
+        </div>
+        <div class="agent_code">
+            <div class="agent_code_t">
+                — 您的邀请码 —
+            </div>
+            <div class="agent_code_b">
+                <volist name="code_a" id="v">
+                    <span>{$v}</span>
+                </volist>
+            </div>
+            <div class="agent_code_c">
+                <a href="copy://{$code}">点击复制</a>
+            </div>
+        </div>
+        <div class="agent_info">
+            <div class="agent_info_bd">
+                <div class="agent_info_bd_tab">
+                    我的分享
+                </div>
+                <div class="agent_info_bd_list clearfix">
+                    <ul>
+                        <li>
+                            <a href="/appapi/agent/one?uid={$uid}&token={$token}">
+                            <div class="li_icon">
+                                <img src="__STATIC__/appapi/images/agent/icon.png">
+                            </div>
+                            <div class="li_t">
+                                一级好友
+                            </div>
+                            <div class="li_d">
+                                ({$one_nums}人)
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="share_explain">
+            <div class="agent_explain_tips">
+                功能说明
+            </div>
+            <div class="share_explain_bd">
+                <div class="share_explain_bd_t">
+                    以花费100{$site_info['name_coin']}为例说明
+                </div>
+                <div class="share_explain_bd_d">
+                    <p>一级好友花费100{$site_info['name_coin']}，你可获得{$configpri['agent_one']}{$site_info['name_votes']}奖励；</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="share">
+        <a href="shareagent://{$code}"><div class="share_btn">
+            分享赚钱
+        </div></a>
+    </div>
+    <include file="appapi@footer"/>
+    <include file="appapi@scripts"/>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    padding:0.2rem;
+}
+img{
+    max-width:100%;
+}
+.title{
+    line-height:1rem;
+    text-align:center;
+    font-size:0.32rem;
+}
+.content{
+    
+}
